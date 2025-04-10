@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Практическая работа 7</title>
+    <style>
+        button {
+            margin: 5px;
+            padding: 8px 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        #text {
+            padding: 10px;
+            background-color: #f0f0f0;
+            margin: 10px 0;
+        }
+        #movable-block {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            top: 300px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Практическая работа 7</h1>
+    
+    <!-- Задание 1 -->
+    <button id="hideSelf">Нажмите, чтобы скрыть эту кнопку</button>
+    
+    <!-- Задание 2 -->
+    <div id="text">Меня нужно скрыть</div>
+    <button id="toggleText">Нажмите, чтобы скрыть/показать текст</button>
+    
+    <!-- Задание 3 -->
+    <h2>Кнопки с разными событиями</h2>
+    <button id="clickButton">Нажмите меня (click)</button>
+    <button id="mouseoverButton">Наведите на меня (mouseover)</button>
+    <button id="dblclickButton">Двойной клик (dblclick)</button>
+    
+    <!-- Задание 4 -->
+    <h2>Изменение цвета фона</h2>
+    <p>Нажмите клавиши R (красный), G (зеленый), B (синий)</p>
+    
+    <!-- Задание 5 -->
+    <h2>Перемещение блока</h2>
+    <p>Используйте клавиши W (вверх), A (влево), S (вниз), D (вправо)</p>
+    <div id="movable-block"></div>
+
+    <script src="./index.js">
+    </script>
+</body>
+</html>
